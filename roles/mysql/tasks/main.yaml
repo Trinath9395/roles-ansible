@@ -1,8 +1,4 @@
----
-- name: Install mysql 
-  hosts: mysql 
-  become: yes
-  tasks: 
+ 
   - name: Install mysql libraries 
     ansible.builtin.pip:
       name: "{{ item }}"
