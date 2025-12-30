@@ -3,6 +3,6 @@
   hosts: mysql 
   become: yes  
   vars_files: 
-  - roles-ansible/roles/mysql/vars/vault.yaml
+  - roles/mysql/vars/vault.yaml
   roles: 
   - mysql 
